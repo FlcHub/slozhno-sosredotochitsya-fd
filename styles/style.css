@@ -16,6 +16,7 @@
 }
 
 .header {
+  padding: var(--section-padding, clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem));
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
@@ -24,7 +25,6 @@
   gap: 5px;
   inline-size: 100%;
   block-size: 100vh;
-  padding-block-end: calc(2 * var(--section-padding, clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem)));
   min-block-size: calc(100vh - 2 * var(--section-bottom-top-padding, clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem)));
 }
 
@@ -89,8 +89,8 @@
 
 .header__dark-theme-sign {
   position: absolute;
-  top: 1px;
-  right: 10px;
+  top: var(--section-padding, clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem));
+  right: var(--sign-right, clamp(1.25rem, 0.7133rem + 2.2901vw, 1.8125rem));
   color: var(--sign-font-color, #FF0070);
   font-size: 18px;
 }
@@ -135,7 +135,7 @@
 .main {
   display: grid;
   gap: var(--list-items-gap, clamp(3.125rem, 1.3359rem + 7.6336vw, 5rem));
-  padding: var(--main-padding, clamp(3.125rem, 1.3359rem + 7.6336vw, 5rem) 0);
+  padding: var(--main-padding, clamp(2.5rem, 1.3073rem + 5.0891vw, 3.75rem)) var(--section-padding, clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem));
 }
 
 .main__section-title {
@@ -206,7 +206,7 @@
   justify-content: space-between;
   inline-size: 100%;
   block-size: 100vh;
-  padding-block-start: calc(2 * var(--section-padding, clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem)));
+  padding: var(--section-padding, clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem));
   min-block-size: calc(100vh - 2 * var(--section-bottom-top-padding, clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem)));
 }
 

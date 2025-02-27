@@ -33,6 +33,8 @@
   --section-images-gap: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem); /* увеличивать отступ от 10px до 20px */
   --section-bottom-top-padding: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem); /* увеличивать отступ от 10px до 20px */
   --section-padding: var(--section-bottom-top-padding);
-  --main-padding: clamp(1.875rem, 1.2786rem + 2.5445vw, 2.5rem) 0; /* увеличивать отступ от 30px до 50px */
+  --sign-right: clamp(1.25rem, 0.7133rem + 2.2901vw, 1.8125rem); /* size: 20px - 29px, screen: 375px - 768px */
+  --sign-top: var(--section-bottom-top-padding);
+  --main-padding: clamp(2.5rem, 1.3073rem + 5.0891vw, 3.75rem); /* увеличивать отступ от 40px до 60px */
   --list-items-gap: clamp(3.125rem, 1.3359rem + 7.6336vw, 5rem); /* увеличивать отступ от 60px до 80px */
 }
