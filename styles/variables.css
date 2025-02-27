@@ -2,3 +2,36 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --main-font: 'IBM Plex mono';
+  --bg-image-url: url(../images/cover-image-dark.png);
+  --main-font-color: #F1B2CE;
+  --accent-color: #FF0070;
+  --decorated-zone-color: #FF0070;
+  --header-description-font-color: #000028;
+  --h1-font-color: #DB00FF;
+  --h2-font-color: #FF0070;
+  --h3-font-color: #000028;
+  --h4-font-color: #000028;
+  --sign-font-color: #FF0070;
+  --button-font-color: #FF0070;
+  --button-outline-hover-color: #FF007066;
+  --link-outline-color: #F1B2CE;
+  --decor-bgcolor: #FF0070;
+  
+  --title-size-mobi: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --title-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --h2-font-size: 18px;
+  --h3-font-size: 18px;
+  --h4-font-size: 18px;
+
+  --title-description-margin-mobi: clamp(3.125rem, 2.8865rem + 1.0178vw, 3.375rem); /* size: 50px - 54px, screen: 375px - 768px */
+  --title-description-margin-desktop: clamp(3.375rem, 1.5rem + 3.9063vw, 4rem); /* size: 54px - 64px, screen: 375px - 768px */
+  --theme-menu-padding: clamp(2rem, -4.3812rem + 27.2265vw, 8.6875rem); /* size: 32px - 149px, screen: 375px - 768px */
+  --title-accent-shadow-padding: 4px 4px;
+  --section-images-gap: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem); /* увеличивать отступ от 10px до 20px */
+  --section-bottom-top-padding: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem); /* увеличивать отступ от 10px до 20px */
+  --section-padding: var(--section-bottom-top-padding);
+  --main-padding: clamp(3.125rem, 1.3359rem + 7.6336vw, 5rem) 0; /* увеличивать отступ от 50px до 80px */
+  --list-items-gap: clamp(3.125rem, 1.3359rem + 7.6336vw, 5rem); /* увеличивать отступ от 60px до 80px */
+}
