@@ -34,8 +34,10 @@
 
 @media (prefers-color-scheme: light) {
   :root {
+    --bg-image-url: url(../images/cover-image-light.png);
     --main-font-color: #353430;
     --accent-color: #FF8DCB;
+    --decorated-zone-color: #353430;
     --header-description-font-color: #353430;
     --h1-font-color: #FFC2E6;
     --h2-font-color: #353430;

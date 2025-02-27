@@ -23,6 +23,7 @@
   align-items: center;
   gap: 5px;
   inline-size: 100%;
+  block-size: 100%;
   min-block-size: calc(100vh - 2 * var(--section-bottom-top-padding, clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem)));
 }
 
@@ -203,6 +204,7 @@
   flex-direction: column;
   justify-content: space-between;
   inline-size: 100%;
+  block-size: 100%;
   min-block-size: calc(100vh - 2 * var(--section-bottom-top-padding, clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem)));
 }
 
