@@ -25,3 +25,11 @@
   --link-outline-color: #F1B2CE;
   --decor-bgcolor: #FF0070;
 }
+
+.theme-dark .header__dark-theme-sign {
+  display: inline;
+}
+
+.theme-dark .header__dark-theme-sign::after {
+  display: inline-block;
+}

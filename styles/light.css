@@ -50,4 +50,12 @@
     --link-outline-color: #353430;
     --decor-bgcolor: #FF8DCB;
   }
+
+  .header__dark-theme-sign {
+    display: none;
+  }
+  
+  .header__dark-theme-sign::after {
+    display: none;
+  }
 }
