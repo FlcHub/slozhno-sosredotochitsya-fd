@@ -54,7 +54,7 @@
   .header__dark-theme-sign {
     display: none;
   }
-  
+
   .header__dark-theme-sign::after {
     display: none;
   }
